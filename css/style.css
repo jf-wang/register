@@ -1,0 +1,579 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    overflow: hidden;
+}
+.green{
+    fill: #99cc33;
+}
+.blue{
+    fill: #4199d7;
+}
+.red {
+    fill:red;
+}
+.white{
+    fill:white;
+}
+.iconb {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: #4199d7;
+    overflow: hidden;
+}
+.fontred{
+    color: red;
+}
+.fontwhite{
+    color: white;
+}
+.fontgreen{
+    color: #99cc33;
+}
+.fontgray{
+    color:#8b6c72;
+}
+.hide{
+    display: none;
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family:Arial;
+}
+body{
+    background: url("../img/head.png") no-repeat;
+}
+.content{
+    width: 955px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 95px;
+
+}
+header .lang img{
+    position: relative;
+    top:5px;
+}
+header .lang p{
+    margin-top: 5px;
+}
+.lang{
+    float: right;
+    font-size: 12px;
+    color: #e7e7e7;
+    display: inline;
+    text-align: right;
+    margin-top: 40px;
+}
+.lang #one{
+    color:white ;
+}
+article .left{
+    float: left;
+    background: url("../img/left.png");
+    height: 900px;
+    width: 210px;
+    /*border-bottom: 1px solid #d6d7d7;*/
+}
+article .left .pic1{
+    cursor: pointer;
+    width:208px;
+    height: 82px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.picbg1{
+    background: url("../img/left1.png");
+}
+.picbg2{
+    background: url("../img/left2.png");
+}
+article .left .acc{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+article .left  .cont{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+article .left .pic2{
+    cursor: pointer;
+    width:208px;
+    height: 82px;
+    margin-left: 2px;
+}
+
+article .left .searchn {
+    margin-left: 3px;
+    margin-top: 91px;
+    background: url("../img/search.png");
+    width: 187px;
+    height: 204px;
+    position: relative;
+}
+article .left .searchn .in{
+    border-top:1px solid #b8bbc0;
+    border-right: 1px solid #dde3e8;
+    border-left: 1px solid #dde3e8;
+    border-bottom: 1px solid #dde3e8;
+    height: 26px;
+    width: 170px;
+    position: relative;
+    top: 46px;
+    left: 8px;
+}
+article .left .searchn .in input{
+    background-color: #fbfdfd;
+    height: 26px;
+    width: 140px;
+    border-style: none;
+    float: left;
+    position: relative;
+    /*order-right: 1px solid #dde3e8;*/
+}
+article .left .searchn .in input{
+    background-color: #fbfdfd;
+    height: 26px;
+    width: 140px;
+    border-style: none;
+    float: left;
+    position: relative;
+    /*order-right: 1px solid #dde3e8;*/
+}
+article .left .searchn .in img{
+    float: left;
+}
+article .left .searchn #birthday{
+    position: absolute;
+    left:59px;
+    top:94px;
+
+}
+article .left .searchn #love{
+    position: absolute;
+    left:113px;
+    top:94px;
+
+}
+article .left .searchn #cellphone{
+    position: absolute;
+    left:59px;
+    top:121px;
+
+}
+article .left .searchn #anniversary{
+    position: absolute;
+    left:113px;
+    top:121px;
+}
+article .left .searchn a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #959595;
+}
+article .left .searchn a:hover{
+    color: #4199d7;
+}
+article .main{
+    background-color: #f8fdff;
+    margin-left: 210px;
+    border-top:1px solid #80add9;
+    border-right:1px solid #dbdbdb;
+    border-bottom:1px solid #d6d9db;
+    height: 898px;
+}
+article .main .hv{
+    width: 3px;
+    height: 28px;
+    background-color:#59afe4;
+    float: left;
+    margin-left: 60px;
+    margin-top:25px;
+    margin-right: 5px;
+}
+article .main .hr{
+    margin-left: 60px;
+    margin-top:7px;
+    width: 605px;
+    border-bottom: 1px solid #dddddd;
+}
+article .main .pwdinfo{
+    position: absolute;
+    left: 912px;
+    top:406px;
+    width: 141px;
+    height: 69px;
+    font-size: 12px;
+    line-height: 21px;
+    padding-top: 8px;
+    padding-left: 18px;
+    background: url("../img/pwdinfo.png");
+}
+article .main .tit{
+    margin-top: 30px;
+    margin-left: 65px;
+    font-size: 18px;
+}
+.main table{
+
+    background-color: #f8fdff;
+    /*border: 1px solid black;*/
+    /*margin-top: 20px ;*/
+    margin:20px 0 0 120px;
+
+    /*width: 400px;*/
+    /*height: 200px;*/
+}
+.main table tr {
+
+}
+.main table .title{
+    padding-right: 10px;
+    text-align: right;
+}
+.main table .inbox{
+    height: 44px;
+    width: 300px;
+    position: relative;
+}
+.main table .inbox input{
+    padding: 8px;
+    height: 18px;
+    width: 284px;
+    border: none;
+    border-radius: 4px;
+    background: url("../img/ipt.png");
+}
+.main table .inbox .short{
+    width: 282px;
+}
+.main table .inbox .alert{
+    background-color: #f3f9fc;
+    border:1px solid  red;
+    background: url("");
+}
+
+
+
+.main form .inbox ul{
+    list-style: none;
+    position: absolute;
+    top:33px;
+    z-index: 1;
+    border: 1px solid #57a8e4;
+    background-color: #f3f9fc;
+    font-size: 12px;
+    padding: 1px 1px 1px 1px;
+    display: none;
+}
+.main form .inbox ul li{
+    padding: 4px 0 0 3px;
+}
+.main form .inbox ul li:hover{
+    background-color: #57a8e4;
+    color: white;
+}
+
+/*.main form .inbox .*/
+
+.main form .inbox .birthdaytype ul li {
+    width: 53px;
+    height: 16px;
+}
+.main form .inbox .year ul{
+    left:64px;
+    height: 140px;
+    overflow-y: scroll;
+}
+.main form .inbox .year ul li {
+    width: 82px;
+    height: 16px;
+}
+.main form .inbox .month ul{
+    left:174px;
+    height: 140px;
+    overflow-y: scroll;
+}
+.main form .inbox .month ul li, .main form .inbox .date ul li{
+    width: 36px;
+    height: 16px;
+}
+.main form .inbox .date ul{
+    left:238px;
+    height: 140px;
+    overflow-y: scroll;
+}
+
+
+.main table .inbox input:focus{
+    background:url("../img/ipt.png")  0 -35px;
+}
+.main table .inbox input[type="radio"]{
+    display: none;
+}
+.main table .inbox label{
+    position: relative;
+    top:-2px;
+    color: #84a8c8;
+    font-size: 12px;
+}
+.main table .inbox  label div{
+    display: inline-block;
+    position: relative;
+    top:4px;
+    width: 20px;
+    height: 18px;
+    border: 0;
+}
+.main form .inbox .birthdaytype{
+    float: left;
+    height: 23px;
+    width: 60px;
+    margin-right: 4px;
+}
+.main form .inbox .birthdaytype input{
+    background: url("../img/ipt.png") -197px -176px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 56px;
+    font-size: 12px;
+    color: #4199d7;
+}
+
+.main form .inbox .birthdaytype input:focus{
+    background: url("../img/ipt.png") -197px -199px;
+}
+
+.main form .inbox .year{
+    float: left;
+    height: 23px;
+    width: 106px;
+    margin-right: 4px;
+}
+.main form .inbox .year input {
+    background: url("../img/ipt.png") 0 -246px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 102px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .year input:focus {
+    background: url("../img/ipt.png") 0 -269px;
+}
+.main form .inbox .month{
+    margin-right: 4px;
+    float: left;
+    height: 23px;
+    width: 60px;
+}
+.main form .inbox .month input {
+    background: url("../img/ipt.png") -197px -176px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 56px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .month input:focus {
+    background: url("../img/ipt.png") -197px -199px;
+}
+
+.main form .inbox .date{
+    float: left;
+    height: 23px;
+    width: 60px;
+}
+.main form .inbox .date input {
+    background: url("../img/ipt.png") -197px -176px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 56px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .date input:focus {
+    background: url("../img/ipt.png") -197px -199px;
+}
+
+.main table .inbox input + label div{
+    background: url("../img/ipt.png") -300px -322px;
+}
+.main table .inbox input:checked +  label div{
+    background: url("../img/ipt.png") -300px -355px;
+}
+.main table .msg{
+    font-size: 12px;
+    color: #808080;
+}
+.main table .msg font{
+    color: #4199d7;
+    cursor: pointer;
+}
+
+.main td{
+    /*border: 1px solid black;*/
+}
+footer{
+    height: 103px;
+    text-align: center;
+}
+
+
+
+.main form .inbox .country{
+    float: left;
+    height: 23px;
+    width: 97px;
+    margin-right: 4px;
+}
+.main form .inbox .country input {
+    background: url("../img/ipt.png") -106px -246px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 93px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .country input:focus {
+    background: url("../img/ipt.png") -106px -269px;
+}
+.main form .inbox .country ul{
+    left:0;
+    height: 140px;
+    overflow-y: scroll;
+}
+.main form .inbox .country ul li {
+    width: 142px;
+    height: 16px;
+}
+/*.main form .inbox .country input:focus+ul {*/
+    /*display: inline;*/
+/*}*/
+
+.main form .inbox .province{
+    margin-right: 4px;
+    float: left;
+    height: 23px;
+    width: 97px;
+}
+.main form .inbox .province input {
+    background: url("../img/ipt.png") -106px -246px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 93px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .province input:focus {
+    background: url("../img/ipt.png") -106px -269px;
+}
+.main form .inbox .province ul{
+    left:101px;
+    height: 140px;
+    overflow-y: scroll;
+}
+.main form .inbox .province ul li {
+
+    width: 73px;
+    height: 16px;
+}
+/*.main form .inbox .province input:focus+ul {*/
+    /*display: inline;*/
+/*}*/
+
+.main form .inbox .city{
+    float: left;
+    height: 23px;
+    width: 97px;
+}
+.main form .inbox .city input {
+    background: url("../img/ipt.png") -106px -246px;
+    padding: 0 0 0 4px;
+    height: 23px;
+    width: 93px;
+    font-size: 12px;
+    color: #4199d7;
+}
+.main form .inbox .city input:focus {
+    background: url("../img/ipt.png") -106px -269px;
+}
+.main form .inbox .city ul{
+    left:202px;
+    height: 140px;
+    overflow-y: scroll;
+}
+.main form .inbox .city ul li {
+    width: 73px;
+    height: 16px;
+}
+/*.main form .inbox .city input:focus+ul {*/
+    /*display: inline;*/
+/*}*/
+.main form .text1{
+    font-size: 12px;
+    color: #808080;
+    line-height: 18px;
+}
+.main form .text1 a{
+    color: #4199d7;
+}
+.main form .phonecheck input{
+    width: 153px;
+    height: 19px;
+    border-style: none;
+    background: url("../img/ipt.png") 0 -597px;
+}
+.main form .phonecheck input:focus{
+    background: url("../img/ipt.png") 0 -634px;
+}
+.main form .phonecheck button{
+    height: 35px;
+    width: 129px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f4f9fd;
+    border:1px solid #d0dad3;
+    color: #444444;
+    /*border-style: none;*/
+    /*background: url("../img/ipt.png") -105px -437px;*/
+}
+.main form  .submit button{
+    width: 306px;
+    height: 52px;
+    background-color: #69b946;
+    border-radius: 4px;
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color:white;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.main form .license label{
+    font-size: 12px;
+    color: #333333;
+}
+.main form table .license .lic + label  div{
+    display: inline-block;
+    position: relative;
+    top:4px;
+    width: 20px;
+    height: 18px;
+    border: 0;
+}
+.main form table .license .lic + label div{
+    background: url("../img/ipt.png") -300px -445px;
+}
+.main form table .license .lic:checked + label div{
+    background: url("../img/ipt.png") -300px -478px;
+}
